@@ -1,0 +1,67 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29728.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BrowerCORS", "BrowerCORS", "{B9EA1C43-A984-4755-875D-D9A7968773BD}"
+	ProjectSection(SolutionItems) = preProject
+		BrowerCORS\remark.md = BrowerCORS\remark.md
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core.BrowerCORS", "BrowerCORS\Core.BrowerCORS\Core.BrowerCORS.csproj", "{30ED61E6-4EEA-4080-8567-5DCC9ABA72EE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core.BrowerCORS2", "BrowerCORS\Core.BrowerCORS2\Core.BrowerCORS2.csproj", "{785E2AA1-430A-4D7B-917F-7D124E30983D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "test2", "test2\test2.csproj", "{0E40E347-E38D-4FE4-AB94-95B3C740726B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EFreamwork", "EFreamwork", "{482A3018-DFF6-4FB3-B44D-6FDFDCBEE917}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Freamwork", "EFreamwork\Freamwork\Freamwork.csproj", "{B28A1976-012A-4F85-9CF7-4E52A3F846CC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core", "EFreamwork\Core\Core.csproj", "{F0D346F1-9BFB-425F-9FB5-ECB5D71FA7ED}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LearnGithub", "LearnGithub", "{4B6CB80E-AEAB-49DC-8BCE-59E612B671EE}"
+	ProjectSection(SolutionItems) = preProject
+		Docker.md = Docker.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{30ED61E6-4EEA-4080-8567-5DCC9ABA72EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30ED61E6-4EEA-4080-8567-5DCC9ABA72EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30ED61E6-4EEA-4080-8567-5DCC9ABA72EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30ED61E6-4EEA-4080-8567-5DCC9ABA72EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{785E2AA1-430A-4D7B-917F-7D124E30983D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{785E2AA1-430A-4D7B-917F-7D124E30983D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{785E2AA1-430A-4D7B-917F-7D124E30983D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{785E2AA1-430A-4D7B-917F-7D124E30983D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E40E347-E38D-4FE4-AB94-95B3C740726B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E40E347-E38D-4FE4-AB94-95B3C740726B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E40E347-E38D-4FE4-AB94-95B3C740726B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E40E347-E38D-4FE4-AB94-95B3C740726B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B28A1976-012A-4F85-9CF7-4E52A3F846CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B28A1976-012A-4F85-9CF7-4E52A3F846CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B28A1976-012A-4F85-9CF7-4E52A3F846CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B28A1976-012A-4F85-9CF7-4E52A3F846CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F0D346F1-9BFB-425F-9FB5-ECB5D71FA7ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0D346F1-9BFB-425F-9FB5-ECB5D71FA7ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0D346F1-9BFB-425F-9FB5-ECB5D71FA7ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0D346F1-9BFB-425F-9FB5-ECB5D71FA7ED}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{30ED61E6-4EEA-4080-8567-5DCC9ABA72EE} = {B9EA1C43-A984-4755-875D-D9A7968773BD}
+		{785E2AA1-430A-4D7B-917F-7D124E30983D} = {B9EA1C43-A984-4755-875D-D9A7968773BD}
+		{B28A1976-012A-4F85-9CF7-4E52A3F846CC} = {482A3018-DFF6-4FB3-B44D-6FDFDCBEE917}
+		{F0D346F1-9BFB-425F-9FB5-ECB5D71FA7ED} = {482A3018-DFF6-4FB3-B44D-6FDFDCBEE917}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B0A172D0-A6FB-46F5-A14E-C3153274FA72}
+	EndGlobalSection
+EndGlobal

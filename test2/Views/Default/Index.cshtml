@@ -1,0 +1,13 @@
+﻿@model Default
+@{
+    ViewData["Title"] = "Index";
+    //Layout = "~/Views/Shared/_Layout.cshtml";
+}
+    <form asp-controller="Demo" asp-action="RegisterValidation" method="post">
+
+        Email:  <input asp-for="Email" /> <br />
+        <span asp-validation-for="Email"></span><br />
+        Password: <input asp-for="Password" /><br />
+        <span asp-validation-for="Password"></span><br />
+        <button type="submit">Register</button>
+    </form>

@@ -1,0 +1,44 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <script src="~/lib/jquery/dist/jquery.js"></script>
+    <title>Index</title>
+</head>
+<body>
+    <div style="display:block;">
+        <label name="Server">服务端跨域</label>
+        <input type="text" name="Server" value="" />
+    </div>
+    <div style="display:block;">
+        <label name="JSON">JSONP跨域</label>
+        <input type="text" name="JSON" value="" />
+    </div>
+
+</body>
+</html>
+
+<script>
+    function callback(data) {
+        debugger
+        $("input[name=JSON]").val(data);
+    }
+
+    $(function () {
+        $("label[name=Server]").bind("click", function () {
+            $.get("http://localhost:12123/Home", function (data) {
+                $("input[name=Server]").val(data);
+            });
+        });
+
+
+    });
+</script>
+<script src="http://localhost:12123/Home/Callback"></script>
+
